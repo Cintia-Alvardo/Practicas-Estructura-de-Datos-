@@ -4,11 +4,11 @@ impares = []
 
 for numero in numeros:
 
-    if numeros%2 == 0:
+    if numeros % 2 == 0:
         pares.append(numero)
     else:
         impares.append(numero)
 
-    print("Serie: ",numeros)
-    print("Pares: ",pares)
-    print("Impares: ", impares)
+print("Serie: ",numeros)
+print("Pares: ",pares)
+print("Impares: ", impares)
